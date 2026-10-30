@@ -9,6 +9,12 @@ const nextConfig = {
       },
     },
   },
+   images: {
+    remotePatterns: [
+      // TheMealDB ki photos allow karo
+      { protocol: "https", hostname: "www.themealdb.com" },
+    ],
+  },
 };
 
 export default nextConfig;
